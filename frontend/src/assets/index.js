@@ -22,6 +22,7 @@ import { ReactComponent as ReachOut } from "./reach-out.svg";
 import { ReactComponent as RequireDemoIcon } from "./require-demo.svg";
 import { ReactComponent as LearnMore } from "./learn-more.svg";
 import { ReactComponent as UnstractBlackLogo } from "./UnstractLogoBlack.svg";
+import { ReactComponent as HamsTracLogo } from "./hams-logo.svg";
 import { ReactComponent as SquareBg } from "./square-bg.svg";
 import { ReactComponent as TrialDoc } from "./trial-doc.svg";
 import { ReactComponent as TextExtractorIcon } from "./text-extractor.svg";
@@ -61,6 +62,7 @@ export {
   SquareBg,
   TrialDoc,
   TextExtractorIcon,
+  HamsTracLogo,
   OcrIcon,
   OrgAvatar,
   OrgSelection,

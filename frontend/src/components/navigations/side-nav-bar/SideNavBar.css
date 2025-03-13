@@ -1,5 +1,5 @@
 .side-bar {
-  background-color: #0d3a63 !important;
+  background-color: #1c002e !important;
   overflow-y: auto;
 }
 
@@ -33,6 +33,7 @@
   color: white;
   font-size: 20px;
 }
+
 .sidebar-footer-text {
   color: white;
   padding-left: 10px;
@@ -47,7 +48,7 @@
 
 .space-styles-active,
 .space-styles:hover {
-  background: #005b82;
+  background: #3d0163;
 }
 
 .space-styles-disable {

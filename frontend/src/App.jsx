@@ -78,9 +78,9 @@ function App() {
             : defaultAlgorithm,
         components: {
           Button: {
-            colorPrimary: "#092C4C",
-            colorPrimaryHover: "#0e4274",
-            colorPrimaryActive: "#092C4C",
+            colorPrimary: "#7017ac",
+            colorPrimaryHover: "#fff",
+            colorPrimaryActive: "#fff",
           },
         },
       }}
@@ -88,7 +88,7 @@ function App() {
       <HelmetProvider>
         <BrowserRouter>
           <PostHogPageviewTracker />
-          <PageTitle title={"Unstract"} />
+          <PageTitle title={"Hams-trac"} />
           {GoogleTagManagerHelper && <GoogleTagManagerHelper />}
           {contextHolder}
           <Router />

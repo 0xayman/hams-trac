@@ -3,7 +3,7 @@ import { Row, Col } from "antd";
 
 import { getBaseUrl } from "../../helpers/GetStaticData";
 import "./Login.css";
-import { UnstractBlackLogo } from "../../assets";
+import { HamsTracLogo } from "../../assets";
 import { ProductContentLayout } from "./ProductContentLayout";
 
 let LoginForm = null;
@@ -29,7 +29,7 @@ function Login() {
           <>
             <Col xs={24} md={12} className="login-left-section">
               <div className="button-wraper">
-                <UnstractBlackLogo className="logo" />
+                <HamsTracLogo className="logo" />
                 <div>
                   <Button
                     className="login-button button-margin"

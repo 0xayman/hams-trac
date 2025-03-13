@@ -6,11 +6,12 @@
 }
 
 .topNav {
-  background-color: var(--primary);
+  background-color: #f2deff;
   padding-block: 14px;
   padding-inline-start: 20px;
   padding-inline-end: 12px;
 }
+
 .logoNoMargin {
   margin-inline-end: 12px;
 }

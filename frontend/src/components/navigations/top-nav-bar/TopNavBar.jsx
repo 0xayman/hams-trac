@@ -21,7 +21,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import PropTypes from "prop-types";
 
-import { UnstractLogo } from "../../../assets/index.js";
+import { HamsTracLogo } from "../../../assets/index.js";
 import {
   getBaseUrl,
   homePagePath,
@@ -61,13 +61,6 @@ try {
   // Plugin not found
 }
 
-let WhispererLogo;
-try {
-  WhispererLogo =
-    require("../../../plugins/assets/llmWhisperer/index.js").WhispererLogo;
-} catch {
-  // Ignore if hook not available
-}
 
 let unstractSubscriptionPlan;
 let unstractSubscriptionPlanStore;
@@ -134,8 +127,8 @@ function TopNavBar({ isSimpleLayout, topNavBarOptions }) {
 
     setShowOnboardBanner(
       !onboardCompleted(sessionDetails?.adapters) &&
-        !isReviewer &&
-        !isSupervisor
+      !isReviewer &&
+      !isSupervisor
     );
     setApproverStatus(isAdmin || isSupervisor);
     setReviewerStatus(isReviewer);
@@ -337,16 +330,12 @@ function TopNavBar({ isSimpleLayout, topNavBarOptions }) {
   return (
     <Row align="middle" className="topNav">
       <Col span={6} className="platform-switch-container">
-        {isUnstract ? (
-          <UnstractLogo
-            className="topbar-logo cursor-pointer"
-            onClick={() =>
-              navigate(`/${sessionDetails?.orgName}/${homePagePath}`)
-            }
-          />
-        ) : (
-          WhispererLogo && <WhispererLogo className="topbar-logo" />
-        )}
+        <HamsTracLogo
+          className="topbar-logo cursor-pointer"
+          onClick={() =>
+            navigate(`/${sessionDetails?.orgName}/${homePagePath}`)
+          }
+        />
         {reviewPageHeader && (
           <span className="page-identifier">
             <span className="custom-tools-header-v-divider" />
@@ -369,7 +358,7 @@ function TopNavBar({ isSimpleLayout, topNavBarOptions }) {
                     Your setup process is incomplete. Now, that&apos;s a bummer!
                   </span>
                   <a href={onBoardUrl} className="top-nav-alert-link">
-                    Complete it to start using Unstract
+                    Complete it to start using Hams-trac
                   </a>
                 </>
               }

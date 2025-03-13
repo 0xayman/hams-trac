@@ -3,7 +3,7 @@ import { Button, Card, Col, Layout, Row, Space, Typography } from "antd";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import logo from "../../assets/UnstractLogoBlack.svg";
+import logo from "../../assets/hams-logo.svg";
 import ConnectLLM from "../../assets/connect_llm.svg";
 import ConnectVectorDb from "../../assets/connect_vector_db.svg";
 import ConnectEmbedding from "../../assets/connect_embedding.svg";
@@ -37,7 +37,7 @@ function OnBoard() {
       icon: ConnectLLM,
       type: "llm",
       description:
-        "Unstract harnesses Large Language Models (LLMs) to organize and analyze vast unstructured data, offering support for diverse LLMs from multiple providers.",
+        "Hams-trac harnesses Large Language Models (LLMs) to organize and analyze vast unstructured data, offering support for diverse LLMs from multiple providers.",
     },
     {
       id: 2,
@@ -129,18 +129,6 @@ function OnBoard() {
             ))}
           </Space>
           <div className="later-div-style">
-            <div className="help-text">
-              Need help? Here&apos;s our&nbsp;
-              <a
-                href="https://docs.unstract.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="link-color"
-              >
-                quick start guide&nbsp;
-              </a>
-              to help you get going.
-            </div>
             <CustomButton type="primary" onClick={() => navigate(homePageUrl)}>
               Complete Later &gt;
             </CustomButton>

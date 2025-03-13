@@ -1,13 +1,13 @@
 import { Typography } from "antd";
 
-import { Logo64 } from "../../assets";
+import { HamsTracLogo } from "../../assets";
 import "./GenericLoader.css";
 
 function GenericLoader() {
   return (
     <div className="center">
       <div className="spinner-box">
-        <Logo64 className="fadeinout" />
+        <HamsTracLogo className="fadeinout" />
         <div className="pulse-container">
           <div className="pulse-bubble pulse-bubble-1"></div>
           <div className="pulse-bubble pulse-bubble-2"></div>
