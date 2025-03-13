@@ -24,6 +24,7 @@ VERSION=dev docker compose -f docker-compose.yaml up -d frontend
 
 Now access frontend at http://3.80.79.170
 
+
 ## Docker Build and Run Optional Services
 
 Some services are kept optional and will not be built or started by default. Run them as follows.
