@@ -2,10 +2,10 @@ http:
   routers:
     frontend:
       service: frontend
-      rule: Host(`frontend.unstract.localhost`)
+      rule: Host(`localhost`)
     backend:
       service: backend
-      rule: Host(`frontend.unstract.localhost`) && PathPrefix(`/api/v1`, `/deployment`)
+      rule: Host(`localhost`) && PathPrefix(`/api/v1`, `/deployment`)
 
   services:
     frontend:
