@@ -18,7 +18,7 @@ RUN npm install --ignore-scripts
 COPY ${BUILD_CONTEXT_PATH}/ .
 
 # Build the React app
-RUN npm run build
+RUN DISABLE_ESLINT_PLUGIN=true npm run build
 
 # Use a smaller base image for the final stage
 FROM nginx:1.25-alpine
