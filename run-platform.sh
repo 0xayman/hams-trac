@@ -313,7 +313,7 @@ check_dependencies
 
 opt_only_env=false
 opt_only_pull=false
-opt_build_local=false
+opt_build_local=true
 opt_update=false
 opt_verbose=false
 opt_version="latest"
