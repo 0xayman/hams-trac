@@ -134,11 +134,9 @@ celerybeat.pid
 
 # Environments
 test*.env
-*.env
 !sample.env
 .env.export
 .venv*
-env/
 venv/
 ENV/
 env.bak/
