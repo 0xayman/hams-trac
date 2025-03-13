@@ -133,9 +133,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-test*.env
-!sample.env
-.env.export
 .venv*
 venv/
 ENV/
@@ -630,7 +627,6 @@ unstract/tool-registry/tool_registry_config/registry.yaml
 # Docker related
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,pycharm,pycharm+all,pycharm+iml,python,visualstudiocode,react,django
 docker/temp/*
-!docker/sample*.env
 docker/public_tools.json
 docker/proxy_overrides.yaml
 docker/compose.override.yaml
