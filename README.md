@@ -51,7 +51,7 @@ Automate critical business processes that involve complex documents with a human
 Next, either download a release or clone this repo and do the following:
 
 ✅ `./run-platform.sh`<br>
-✅ Now visit [http://3.80.79.170](http://3.80.79.170) in your browser <br>
+✅ Now visit [http://frontend.unstract.localhost](http://frontend.unstract.localhost) in your browser <br>
 ✅ Use username and password `unstract` to login
 
 

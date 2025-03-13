@@ -21,7 +21,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import PropTypes from "prop-types";
 
-import { HamsTracLogo } from "../../../assets/index.js";
+import { HamsTracLogoWhite } from "../../../assets/index.js";
 import {
   getBaseUrl,
   homePagePath,
@@ -330,7 +330,7 @@ function TopNavBar({ isSimpleLayout, topNavBarOptions }) {
   return (
     <Row align="middle" className="topNav">
       <Col span={6} className="platform-switch-container">
-        <HamsTracLogo
+        <HamsTracLogoWhite
           className="topbar-logo cursor-pointer"
           onClick={() =>
             navigate(`/${sessionDetails?.orgName}/${homePagePath}`)

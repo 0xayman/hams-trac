@@ -22,7 +22,7 @@ VERSION=dev docker compose -f docker-compose.yaml up -d
 VERSION=dev docker compose -f docker-compose.yaml up -d frontend
 ```
 
-Now access frontend at http://3.80.79.170
+Now access frontend at http://frontend.unstract.localhost
 
 ## Docker Build and Run Optional Services
 
